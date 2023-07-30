@@ -241,3 +241,18 @@ body {
         opacity: 1;
     }
 }
+
+.address_follow {
+    color: #fff;
+    font-weight: bold;
+}
+
+.noi-dung1 {
+    color: #dee3e4 !important;
+}
+
+.fa-brands {
+    margin: 10px;
+    color: #dee3e4 !important;
+    width: 10%;
+}
