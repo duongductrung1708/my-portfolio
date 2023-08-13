@@ -94,6 +94,7 @@ body {
     opacity: 0;
     animation: slideRight 1s ease forwards;
     animation-delay: 1s;
+    color: #fff;
 }
 
 .home-content p {
