@@ -135,12 +135,21 @@ body {
     border-left: 1px solid rgba(255, 255, 255, .5);
 }
 
-.iconnn {
+.featured-box.style-3 {
+    display: flex;
+}
+
+.featured-box.style-3 .featured-box-icon {
+    width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+    display: flex;
+    -webkit-box-align: center;
     align-items: center;
-    display: inline-block;
-    padding: 15px;
-    background: #fff;
-    border-radius: 20%;
+    background-color: #212529 !important;
+    color: #0ef !important;
+    padding: 1.7rem;
+    margin: 1rem;
 }
 
 .font-weight-bold {
@@ -260,4 +269,36 @@ body {
     margin: 10px;
     color: #dee3e4 !important;
     width: 10%;
+}
+
+.noi-dung1 .fa-solid{
+    margin: 0.3rem;
+}
+
+.form-control {
+    margin: 0.2rem;
+}
+
+.card {
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+
+.wid-sections{
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+
+.resume-sections {
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+
+.resume-sections2 {
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
 }
