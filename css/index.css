@@ -6,11 +6,12 @@
 }
 
 body {
-        background: url('../images/background3.png') rgba(0, 0, 0, 0.3);
-            background-blend-mode: multiply;
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
+    background: url('../images/background3.png') rgba(0, 0, 0, 0.3);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .header {
@@ -271,7 +272,7 @@ body {
     width: 10%;
 }
 
-.noi-dung1 .fa-solid{
+.noi-dung1 .fa-solid {
     margin: 0.3rem;
 }
 
@@ -285,7 +286,7 @@ body {
     animation-delay: calc(.2s * var(--i));
 }
 
-.wid-sections{
+.wid-sections {
     opacity: 0;
     animation: slideTop 1s ease forwards;
     animation-delay: calc(.2s * var(--i));
