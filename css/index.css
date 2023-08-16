@@ -65,6 +65,15 @@ body {
     padding: 70px 10% 0;
 }
 
+.introduction {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+
 .home-content {
     max-width: 600px;
 }
